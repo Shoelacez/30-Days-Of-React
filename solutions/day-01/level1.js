@@ -106,3 +106,14 @@ itCompanies.pop()
 const exactSentence = itCompanies.toString().concat(' and Amazon are big IT companies.')
 console.log(`✔ : ${exactSentence}`);
 
+//13. Check if a certain company exists in the itCompanies array. 
+// If it exist return the company else return a company is not found
+const searching = 'Facebook'
+itCompanies.includes(searching) ? console.log(`${searching} Found`) : console.log(`${searching} not found`);
+
+//14. Filter out companies which have more than one 'o' without the filter method
+console.log(itCompanies);
+const companiesWithMoreOs = itCompanies.filter((company) => company.toLowerCase().)
+
+console.log(companiesWithMoreOs);
+
